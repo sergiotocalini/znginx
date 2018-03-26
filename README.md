@@ -1,0 +1,2 @@
+# znginx
+Zabbix Agent - Nginx
