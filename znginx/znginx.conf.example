@@ -1,0 +1,2 @@
+NGINX_URL="http://localhost/nginx_status"
+CACHE_TTL=1
