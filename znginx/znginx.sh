@@ -167,7 +167,7 @@ else
 	rval=$( get_service ${ARGS[*]} )
 	rcode="${?}"	
     else
-	rval=$( get_stats ${SECTION} ${ARGS[*]} )
+	rval=$( get_stats ${ARGS[*]} )
 	rcode="${?}"
     fi
     echo ${rval:-0} | sed "s/null/0/g"
